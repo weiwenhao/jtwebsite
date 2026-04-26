@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { LegalDocumentPage } from "@/components/legal-document-page";
 import { absoluteUrl, siteConfig } from "@/lib/site";
-import { LEGAL_UPDATED_AT, TERMS_OF_SERVICE_SECTIONS } from "../../../shared/legalDocuments";
+import { LEGAL_UPDATED_AT, TERMS_OF_SERVICE_SECTIONS } from "@/legalDocuments";
 
 export const metadata: Metadata = {
   title: "服务条款",

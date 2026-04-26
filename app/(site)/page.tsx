@@ -1,4 +1,4 @@
-import { ArrowUpRight, Headphones, Mic2, Sparkles } from "lucide-react";
+import { ArrowUpRight, AudioWaveform, Headphones, Mic2, Sparkles } from "lucide-react";
 import { buttonVariants } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { siteConfig } from "../../lib/site";
@@ -60,6 +60,12 @@ export default function HomePage() {
                 <div className="flex items-start gap-3">
                   <Mic2 className="mt-0.5 h-4 w-4 shrink-0 text-muted-foreground" />
                   <span className="text-sm leading-6">实时角色分析、自定义角色语音</span>
+                </div>
+              </div>
+              <div className="flex items-center rounded-lg border px-4 py-4">
+                <div className="flex items-start gap-3">
+                  <AudioWaveform className="mt-0.5 h-4 w-4 shrink-0 text-muted-foreground" />
+                  <span className="text-sm leading-6">仅需 3 秒克隆音色</span>
                 </div>
               </div>
               <div className="flex items-center rounded-lg border px-4 py-4">

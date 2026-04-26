@@ -1,4 +1,4 @@
-import type { legal_document_section } from "../../shared/legalDocuments";
+import type { legal_document_section } from "../legalDocuments";
 
 type LegalDocumentPageProps = {
   englishTitle: string;
